@@ -5,9 +5,8 @@ Created on Sun Dec  3 23:24:37 2017
 
 to do:
     -operation names
-    -save restore model
+    -save  & restore model
     -evaluate model
-    -use dropout
     -tensorboard
 
 @author: sabpap
