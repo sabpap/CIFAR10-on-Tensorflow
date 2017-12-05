@@ -260,10 +260,7 @@ with tf.Session() as sess:
         print 'Accuracy in training batch %d is %f' %(dataset.current_iter, accuracy_python)
         
         """if i % display_step == 0:
-            accuracy_python = sess.run(accuracy, feed_dict = {x:fd.val_set, y:fd.val_lab})
+            accuracy_python = sess.run(accuracy, feed_dict = {x:dataset.x_validation, y:dataset.y_validation})
             print 'Accuracy in validation set is %f' %(accuracy_python)
             
-        if i % 10 == 0:
-            accuracy_python = s.run(accuracy, feed_dict = {x:fd.test_set, y:fd.test_lab})
-            print 'Accuracy in test set is %f' %(accuracy_python)"""  
-##############################################################################
+     
